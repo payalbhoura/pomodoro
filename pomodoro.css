@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ECC98F;
+}
+
+.container{
+    height: 420px;
+    width: 220px;
+    background-color: rgba(0, 0, 0, 0.558);
+    box-shadow: 0px 4px 8px rgba(16, 16, 16, 0.8);
+    box-shadow: #ECC98F;
+    display: block;
+    border-radius: 5px;
+}
+
+#timer-container{
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#time{
+    background-color: white;
+    width: 90%;
+    height: 80%;
+    margin-top: 5%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#timer{
+    font-size: 2em;
+    color:  #0fbac9;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#session-track{
+    color: aliceblue;
+    margin-left: 78px;
+    font-size: larger;
+}
+
+#user-interaction{
+    height: 50%;
+    width: 100%;
+}
+
+#session-and-break{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+    border-top: 1px dotted white;
+}
+
+#session {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+#session input{
+    padding: 0 10px;
+    margin-top: 10px;
+    color: white;
+    background-color: #1C1814;
+}
+
+#break{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+#break input{
+    padding: 0 10px;
+    margin-top: 10px;
+    color: white;
+    background-color: #1C1814;
+}
+
+#pause-and-reset{
+    height: 35%;
+    width: 100%;
+    border-top: 1px dotted white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pause-and-reset input{
+    margin: 0 20px;
+    font-size: 15px;
+    border-radius: 7px;
+    padding: 10px;
+    color: white;
+    background-color: #1C1814;
+    text-align: center;
+}
+
+
+

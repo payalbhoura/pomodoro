@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Clock</title>
+    <link rel="stylesheet" href="pomodoro.css">
+</head>
+<body>
+    <div class="container">
+        <div id = "timer-container">
+            <div id="time">
+                <label id = "timer">00:00</label>
+            </div>
+            <label id = "session-track">Session 1</label>
+        </div>
+        
+        <div id =  "user-interaction">
+            
+            <div id = "session-and-break">
+
+                <div id = "session">
+                    <label style="color: white;"> session time </label> <br>
+                    <label id = "timeofsession" style="font-size: 20px; color: #0fbac9;"> 0min </label> <br>
+                    <input type="button" value = "-" id = "session-dec">
+                    <input type="button" value = "+" id = "session-inc">
+                </div>
+
+                <div id = "break">
+                    <label style="color: white;"> break time </label> <br>
+                    <label id = "timeofbreak" style="font-size: 20px; color: #EB6841;"> 0min </label><br>
+                    <input type="button" value = "-" id = "break-dec">
+                    <input type="button" value = "+" id = "break-inc">
+
+                </div>
+
+            </div>
+
+            <div id = pause-and-reset>
+
+                <input type="button" value = "Start" id = "startpause" >
+                <input type = "button" value = "Reset" id = "resetbtn">
+
+            </div>
+        
+        </div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
